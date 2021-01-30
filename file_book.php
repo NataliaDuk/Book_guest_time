@@ -4,7 +4,7 @@
             $_POST["name"] . "\n" .
             $_POST["email"] . "\n" .
             $_POST["text"]. "\n" .
-            $_POST["time"];
+            $timeDate = date("d-m-Y H-i-s");
         file_put_contents("file_guest.txt", $row, FILE_APPEND);
         header("Location: ?");
         die(); 
@@ -37,6 +37,7 @@
                   } 
             echo "</table>";
             ?>
+            <h2><i>Здесь Вы можете оставить свой отзыв</i></h2>
             </div>
             <div class="ident">
            
@@ -46,9 +47,7 @@
                     <h2>Ваш e-mail</h2>
                     <input type="text" name="email" class="mail">
                     <h2>Ваш отзыв</h2>
-                    <input type="text" name="text" class="comment">
-                    <h2>Дата</h2>
-                    <input type="date" name="time">
+                    <input type="text" name="text" class="comment"><br>
                     <input type="submit" value="ok" class="input">  
                 </form>
             </div>
