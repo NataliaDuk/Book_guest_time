@@ -16,7 +16,7 @@ if ((!empty($_POST)) && ($_POST["name"] != "") && ($_POST["text"] != "")) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Quest Book</title>
     <link rel="stylesheet" href="style265.css">
 </head>
 
@@ -41,11 +41,11 @@ if ((!empty($_POST)) && ($_POST["name"] != "") && ($_POST["text"] != "")) {
     <div class="ident">
         <h2><i>Здесь Вы можете оставить свой отзыв</i></h2>
         <form action="?" method="POST">
-            <h2>Введите Ваше имя</h2>
+            <h2>Введите Ваше имя:</h2>
             <input type="text" name="name" class="user">
-            <h2>Ваш e-mail</h2>
+            <h2>Ваш e-mail:</h2>
             <input type="text" name="email" class="mail">
-            <h2>Ваш отзыв</h2>
+            <h2>Ваш отзыв:</h2>
             <input type="text" name="text" class="comment"><br>
             <input type="submit" value="ok" class="input">
         </form>

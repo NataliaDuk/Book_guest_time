@@ -8,7 +8,7 @@ h1 {
     text-shadow: 3px 1px 3px black;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 60pt;
-    color:red;
+    color:rgb(173, 70, 70);
     
 }
 table {
@@ -48,7 +48,7 @@ h2 {
     width: 60px;
     height: 40px;
     font: bold 16pt Arial, Helvetica, sans-serif;
-    color: blue;
+    color: rgb(62, 106, 156);
 
 }
 
